@@ -3,8 +3,8 @@ package chapter1;
 public class MallarDuck extends Duck{
 	
 	public MallarDuck() {
-		quackBehavior = new Quack();
 		flyBehavior = new FlyWithWings();
+		quackBehavior = new Quack();
 	}
 	
 	public void display() {
